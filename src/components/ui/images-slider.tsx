@@ -49,6 +49,7 @@ export const ImagesSlider = ({
       return new Promise((resolve, reject) => {
         const img = new Image();
         img.src = image;
+        img.alt = "herobanner";
         img.onload = () => resolve(image);
         img.onerror = reject;
       });
@@ -142,6 +143,7 @@ export const ImagesSlider = ({
           <motion.img
             key={currentIndex}
             src={loadedImages[currentIndex]}
+            alt="herobanner"
             initial="initial"
             animate="visible"
             exit={direction === "up" ? "upExit" : "downExit"}

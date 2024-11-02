@@ -3,7 +3,7 @@ export default function Services() {
   return (
     <div className="bg-black py-16">
       <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-        <h2 className="text-center text-base/7 font-semibold text-gray-600">Everything you need to build assest</h2>
+        <h2 className="text-center text-base/7 font-semibold text-gray-400">Everything you need to build assest</h2>
         <p className="mx-auto mt-2 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-neutral-100 sm:text-5xl">
           Services
         </p>
