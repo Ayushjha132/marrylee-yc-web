@@ -56,7 +56,7 @@ export default function About() {
                             <li>Care for children in difficult situations</li>
                             <li>Free lunches for impoverished children</li>
                             <li>Emergency relief for fire-stricken Miao villages in Guizhou</li>
-                            <li>Children's art gallery</li>
+                            <li>Children&apos;s art gallery</li>
                             <li>COVID-19 donations and protective equipment</li>
                             <li>Donations of supplies for the Ukraine conflict</li>
                             <li>Food donations for children in Palestine and Syria</li>
@@ -64,7 +64,7 @@ export default function About() {
 
 
                         <p>
-                            At the age of 23, Yuchen arrived in Dubai alone with an invitation to develop the Chinese market for Dubai real estate. Without relying on family or friends, she started with a modest salary of 2,500 dirhams. Through relentless effort and numerous failures, she gradually built astable career she continues to strive to reach her maximum potential. Undeterred by past achievements, she remains ready to face life's challenges with determination, always aiming for new victories. Her commitment to growth and resilience ensures she continues winning, no matter the obstacles while striving to help those around her and give back to society. She did it and she’s still on the way to achieving more successful achievements to celebrate.
+                            At the age of 23, Yuchen arrived in Dubai alone with an invitation to develop the Chinese market for Dubai real estate. Without relying on family or friends, she started with a modest salary of 2,500 dirhams. Through relentless effort and numerous failures, she gradually built astable career she continues to strive to reach her maximum potential. Undeterred by past achievements, she remains ready to face life&apos;s challenges with determination, always aiming for new victories. Her commitment to growth and resilience ensures she continues winning, no matter the obstacles while striving to help those around her and give back to society. She did it and she&apos;s still on the way to achieving more successful achievements to celebrate.
 
                         </p>
                     </div>

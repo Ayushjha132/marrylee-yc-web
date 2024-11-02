@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 "use client";
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
@@ -23,6 +23,7 @@ export const ImagesSlider = ({
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [loading, setLoading] = useState(false);
   const [loadedImages, setLoadedImages] = useState<string[]>([]);
 
@@ -72,6 +73,7 @@ export const ImagesSlider = ({
     window.addEventListener("keydown", handleKeyDown);
 
     // autoplay
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let interval: any;
     if (autoplay) {
       interval = setInterval(() => {
