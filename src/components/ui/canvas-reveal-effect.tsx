@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import { cn } from "@/lib/utils";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
@@ -203,6 +204,7 @@ const ShaderMaterial = ({
     }
     lastFrameTime = timestamp;
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const material: any = ref.current.material;
     const timeLocation = material.uniforms.u_time;
     timeLocation.value = timestamp;
